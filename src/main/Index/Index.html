@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Se connecter</title>
-    <link rel="stylesheet" href="../css/style_contact.css">
+    <link rel="stylesheet" href="css/style_contact.css">
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -13,43 +13,15 @@
 <div id="formulaire">
     <form method="post">
         <div id="case_nom">
-            <span class="nom_titre">NOM :</span><br>
+            <span class="nom_titre">ID :</span><br>
             <input class="nom" type="text" placeholder="ex: LACHAUX">
         </div>
-        <div id="case_prenom">
-            <span class="prenom_titre">Prénom :</span><br>
-            <input class="prenom" type="text" placeholder="ex: Florian">
+        <div id="case_mdp">
+            <span class="mdp_titre">Mot de passe :</span><br>
+            <input class="prenom" type="text" placeholder="ex: pass1234@">
         </div>
-        <div id="case_email">
-            <span class="email_titre">E-mail :</span><br>
-            <input class="email" type="email" placeholder="ex: florian.lachaux6@etu.univ-lorraine.fr">
-        </div>
-        <div id="case_message">
-            <span class="message_titre">Votre message :</span><br>
-            <textarea id="message"></textarea>
-        </div>
+        <input type="submit" name="Connexion"/>
     </form>
-</div>
-<div id="tableau_contact">
-    <table>
-        <caption>Nos coordonées</caption>
-        <thead>
-        <tr>
-            <th>Entreprise</th>
-            <th>Adresse</th>
-            <th>Code Postal</th>
-            <th>Ville</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Tekk3D</td>
-            <td>1 rue de la gare</td>
-            <td>54000</td>
-            <td>Nancy</td>
-        <tr>
-        </tbody>
-    </table>
 </div>
 </body>
 </html>
